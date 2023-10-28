@@ -1,5 +1,5 @@
 
-def find_common_participants(participants1, participants2, separator=","):
+def find_common_participants(participants1, participants2, separator=','):
     participants_list1 = participants1.split(separator)
     participants_list2 = participants2.split(separator)
     common_participants = list(set(participants_list1).intersection(participants_list2))
